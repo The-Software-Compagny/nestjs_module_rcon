@@ -1,6 +1,6 @@
 {
   "name": "@streamkits/nestjs-module-rcon",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "RCON module for NestJS Framework",
   "repository": "https://github.com/StreamKITS/nestjs-module-rcon.git",
   "author": "Tacx <12997062+tacxticx88@users.noreply.github.com>",
@@ -8,8 +8,7 @@
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "tsc",
-    "postbuild": "cpr README.md dist/README.md && cpr LICENSE dist/LICENSE && cpr package.json dist/package.json",
-    "release": "release-it"
+    "postbuild": "cpr README.md dist/README.md && cpr LICENSE dist/LICENSE && cpr package.json dist/package.json"
   },
   "devDependencies": {
     "@nestjs/common": "^9.3.10",
@@ -20,7 +19,6 @@
     "prettier": "^2.8.4",
     "rcon-client": "^4.2.3",
     "reflect-metadata": "^0.1.13",
-    "release-it": "^15.9.0",
     "rimraf": "^4.4.0",
     "rxjs": "^7.8.0",
     "ts-node": "^10.9.1",
