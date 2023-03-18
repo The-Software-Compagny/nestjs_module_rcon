@@ -1,0 +1,11 @@
+{
+  "git": {
+    "commitMessage": "${version}"
+  },
+  "hooks": {
+    "after:bump": ["yarn build"]
+  },
+  "npm": {
+    "publishPath": "dist"
+  }
+}
