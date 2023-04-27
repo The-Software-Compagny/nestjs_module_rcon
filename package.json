@@ -1,6 +1,6 @@
 {
-  "name": "@streamkits/nestjs-module-rcon",
-  "version": "0.0.5",
+  "name": "@streamkits/nestjs_module_rcon",
+  "version": "0.0.7",
   "description": "RCON module for NestJS Framework",
   "repository": "https://github.com/StreamKITS/nestjs-module-rcon.git",
   "author": "Tacx <12997062+tacxticx88@users.noreply.github.com>",
