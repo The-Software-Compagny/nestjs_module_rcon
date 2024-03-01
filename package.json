@@ -5,6 +5,7 @@
   "repository": "https://github.com/StreamKITS/nestjs-module-rcon.git",
   "author": "Tacx <12997062+tacxticx88@users.noreply.github.com>",
   "license": "MIT",
+  "main": "dist/index.js",
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "tsc",
