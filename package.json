@@ -1,8 +1,8 @@
 {
   "name": "@the-software-compagny/nestjs_module_rcon",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "RCON module for NestJS Framework",
-  "repository": "https://github.com/The-Software-Compagny/nestjs-module-rcon.git",
+  "repository": "https://github.com/The-Software-Compagny/nestjs_module_rcon.git",
   "author": "Tacx <12997062+tacxticx88@users.noreply.github.com>",
   "license": "MIT",
   "main": "dist/index.js",
