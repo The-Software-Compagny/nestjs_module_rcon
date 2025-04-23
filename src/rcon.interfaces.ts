@@ -3,6 +3,9 @@ import { RconOptions } from 'rcon-client'
 
 export interface RconModuleOptions {
   config: RconOptions
+  maxAttempts: number
+  retryDelay: number
+  failOnError: boolean
 }
 
 export { RconOptions } from 'rcon-client'
