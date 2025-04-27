@@ -1,5 +1,5 @@
 import { RCON_MODULE_CONNECTION, RCON_MODULE_CONNECTION_TOKEN, RCON_MODULE_OPTIONS_TOKEN } from './rcon.constants'
-import { RconModuleOptions } from './rcon.interfaces'
+import { Rcon, RconModuleOptions } from './rcon.interfaces'
 import { RconManager } from './rcon.manager'
 
 export function getRconOptionsToken(connection: string): string {
@@ -16,5 +16,5 @@ export async function createRconConnection(options: RconModuleOptions, attempts 
   const manager = new RconManager(config)
   await manager.initialize()
 
-  return manager
+  return manager.defaultClient
 }
